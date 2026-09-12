@@ -11,8 +11,10 @@ def main():
     print("The gates are opening...")
 
     goblin = Goblin("Gribble")
+    goblin2 = Goblin("Grobble")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
+    print(f"{goblin2.name} enters the arena with {goblin2.health} health.")
     print("But no hero has answered the call... yet.")
 
 
